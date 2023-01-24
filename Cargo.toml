@@ -1,0 +1,15 @@
+[package]
+name = "english-teacher-artificial-intelligence"
+version = "0.1.0"
+edition = "2021"
+authors = ["Evgeny Igumnov <igumnovnsk@gmail.com>"]
+repository = "https://github.com/evgenyigumnov/english-teacher-artificial-intelligence"
+license = "MIT"
+license-file = "LICENSE"
+
+
+[dependencies]
+dotenv = "0.15.0"
+actix-rt = "2.7.0"
+openai_api_client = "0.3.3"
+rand = "0.8.5"
